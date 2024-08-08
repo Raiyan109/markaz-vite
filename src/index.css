@@ -69,7 +69,7 @@ body {
 .a .span {
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: #0C0000;
     font-size: 20px;
     letter-spacing: 5px;
 }
@@ -81,7 +81,8 @@ body {
     /* top: 0; */
     width: 200px;
     height: 200px;
-    background: #ae766a;
+    background: #dec75a;
+    /* background: #ae766a; */
     /* background-repeat: #4973ff; */
     box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
     transition: 0.5s;

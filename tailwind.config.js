@@ -14,7 +14,7 @@ export default {
         // offWhite: '#F7EFE8'
         primary: '#fff',
         secondary: '#432818',
-        accent: '#ae766a'
+        accent: '#dec75a'
       }
     },
   },
