@@ -1,0 +1,15 @@
+1. Banner
+a. without picture
+picture: kitab, 
+background image: kitab 
+background image wala website link: https://dribbble.com/shots/24421066-Harvod-University-Landing-Page
+red color schema:https://dribbble.com/shots/24142181-FT1P-contact-page-uithursday
+b. social links: ok
+c. input field: ok
+
+2. Services
+3. Categories
+4. Testimonials
+5. Footer
+
+Font: https://fonts.google.com/specimen/Lexend

@@ -1,3 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Kanit", sans-serif;
+}
+
+@layer base {
+    h1 {
+        @apply text-5xl lg:text-8xl leading-tight lg:leading-snug font-bold;
+    }
+
+    h2 {
+        @apply text-3xl lg:text-7xl;
+    }
+
+    h3 {
+        @apply text-xl md:text-2xl lg:text-2xl
+    }
+
+    /* h4 {
+        @apply text-2xl
+    } */
+
+    h5 {
+        @apply text-sm lg:text-lg text-gray-400 max-w-[410px]
+    }
+}
+
+@layer components {
+    /* .btn-fill {
+        @apply bg-accent hover:bg-accent/80 text-white tracking-widest text-sm lg:text-xl font-semibold py-2 px-5 lg:py-4 lg:px-7 rounded-e-2xl rounded-t-2xl rounded-r-2xl rounded-b-sm rounded-l-xl;
+    } */
+}
+
+/* Hero bg */
+.hero {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.05)), url('./assets/bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Button style */
+.a {
+    position: relative;
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    /* add overflow hidden after writing keyframe */
+}
+
+.a .span {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.a .liquid {
+    position: absolute;
+    left: 0;
+    top: -80px;
+    /* top: 0; */
+    width: 200px;
+    height: 200px;
+    background: #ae766a;
+    /* background-repeat: #4973ff; */
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: 0.5s;
+}
+
+.a:hover .liquid {
+    top: -120px;
+}
+
+.a .liquid::before,
+.a .liquid::after {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -75%);
+}
+
+.a .liquid::before {
+    border-radius: 45%;
+    background: rgba(20, 20, 20, 1);
+    animation: animate 5s linear infinite;
+}
+
+.a .liquid::after {
+    border-radius: 40%;
+    background: rgba(20, 20, 20, 0.5);
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "mern-airbnb-dawid-frontend",
+  "name": "markazul-quran-vite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.3.18",
+    "i18next": "^23.12.2",
+    "i18next-browser-languagedetector": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^15.0.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0"
   },
