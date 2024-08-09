@@ -13,3 +13,5 @@ c. input field: ok
 5. Footer
 
 Font: https://fonts.google.com/specimen/Lexend
+
+Selected Color Pallete: https://mycolor.space/?hex=%23432818&sub=1

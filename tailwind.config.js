@@ -12,7 +12,7 @@ export default {
         // darkBlue: '#072768',
         // lightBlue: '#5079B2',
         // offWhite: '#F7EFE8'
-        primary: '#fff',
+        primary: '#F3F3F3',
         secondary: '#432818',
         accent: '#dec75a'
       }
