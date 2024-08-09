@@ -2,6 +2,7 @@ import AcademicExcellence from '../components/AcademicExcellence';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Success from '../components/Success';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <AcademicExcellence />
+            <Success />
             <Footer />
         </div>
     );
