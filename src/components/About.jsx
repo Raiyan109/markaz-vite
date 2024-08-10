@@ -2,7 +2,7 @@ import majediImg from '../assets/majedi.jpg'
 
 const About = () => {
     return (
-        <div className='py-0 lg:py-32 px-8 mb-72'>
+        <div className=' px-8 mb-[530px]'>
             <div className='flex flex-col-reverse items-center lg:items-start lg:flex-row justify-between mb-10'>
                 <h3 className='max-w-xl'>Is more than just a place to earn a degree - it is a place where you can <span className='text-gray-400'>discover your potential</span>
                 </h3>

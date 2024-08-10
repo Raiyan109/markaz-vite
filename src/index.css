@@ -17,13 +17,13 @@ body {
 
 /* Scrollbar */
 /* Firefox */
-* {
+/* * {
     scrollbar-width: thin;
     scrollbar-color: rgb(122, 71, 71);
-}
+} */
 
 /* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
     width: 20px;
 }
 
@@ -36,11 +36,11 @@ body {
     background-color: gray;
     border-radius: 14px;
     border: 3px solid red;
-}
+} */
 
 @layer base {
     h1 {
-        @apply text-5xl lg:text-8xl leading-tight lg:leading-snug font-bold;
+        @apply text-5xl lg:text-7xl leading-tight lg:leading-snug;
     }
 
     h2 {
@@ -51,9 +51,9 @@ body {
         @apply text-xl lg:text-4xl
     }
 
-    /* h4 {
-        @apply text-2xl
-    } */
+    h4 {
+        @apply text-3xl
+    }
 
     h5 {
         @apply text-sm lg:text-lg text-gray-400 max-w-[410px]
@@ -61,9 +61,13 @@ body {
 }
 
 @layer components {
+
     /* .btn-fill {
         @apply bg-accent hover:bg-accent/80 text-white tracking-widest text-sm lg:text-xl font-semibold py-2 px-5 lg:py-4 lg:px-7 rounded-e-2xl rounded-t-2xl rounded-r-2xl rounded-b-sm rounded-l-xl;
     } */
+    .section-bottom-margin {
+        margin-bottom: 170px;
+    }
 }
 
 /* Backgrounds */
@@ -81,6 +85,17 @@ body {
 /* Success bg */
 .success {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.05)), url('./assets/success1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+/* Registry bg */
+.registry {
+    background: url('./assets/registry1.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -158,4 +173,9 @@ body {
     100% {
         transform: translate(-50%, -75%) rotate(360deg);
     }
+}
+
+/* Input style */
+input[type='text']:focus~.input-text {
+    @apply bg-white -translate-y-9 -translate-x-4 text-gray-400
 }

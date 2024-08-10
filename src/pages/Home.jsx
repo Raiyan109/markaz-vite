@@ -3,6 +3,7 @@ import AcademicExcellence from '../components/AcademicExcellence';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
+import Registry from '../components/Registry';
 import Specialities from '../components/Specialities';
 import Success from '../components/Success';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Success />
             <Specialities />
             <About />
+            <Registry />
             <Footer />
         </div>
     );
