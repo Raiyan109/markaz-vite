@@ -14,4 +14,5 @@ c. input field: ok
 
 Font: https://fonts.google.com/specimen/Lexend
 
-Selected Color Pallete: https://mycolor.space/?hex=%23432818&sub=1
+Selected Color Pallete: https://mycolor.space/?hex=%23432818&sub=
+Selected UI: https://cdn.dribbble.com/userupload/15301897/file/original-f2a2864c7c8e6f67984d4dac4e20816e.png?resize=1440x7862%201440w,%20https://cdn.dribbble.com/userupload/15301897/file/original-f2a2864c7c8e6f67984d4dac4e20816e.png?resize=640x3494%20640w,%20https://cdn.dribbble.com/userupload/15301897/file/original-f2a2864c7c8e6f67984d4dac4e20816e.png?resize=850x4641%20850w,%20https://cdn.dribbble.com/userupload/15301897/file/original-f2a2864c7c8e6f67984d4dac4e20816e.png?resize=1024x5591%201024w

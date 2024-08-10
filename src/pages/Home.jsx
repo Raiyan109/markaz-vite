@@ -1,3 +1,4 @@
+import About from '../components/About';
 import AcademicExcellence from '../components/AcademicExcellence';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
@@ -13,6 +14,7 @@ const Home = () => {
             <AcademicExcellence />
             <Success />
             <Specialities />
+            <About />
             <Footer />
         </div>
     );
