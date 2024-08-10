@@ -91,23 +91,23 @@ body {
 
 /* Button style */
 .a {
-    position: relative;
-    padding: 20px 50px;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 200px;
-    overflow: hidden;
+    /* position: relative; */
+    /* padding: 20px 50px; */
+    /* display: block; */
+    /* text-decoration: none; */
+    /* text-transform: uppercase; */
+    /* width: 200px; */
+    /* overflow: hidden; */
     /* add overflow hidden after writing keyframe */
 }
 
-.a .span {
+/* .a .span {
     position: relative;
     z-index: 1;
     color: #0C0000;
     font-size: 20px;
     letter-spacing: 5px;
-}
+} */
 
 .a .liquid {
     position: absolute;

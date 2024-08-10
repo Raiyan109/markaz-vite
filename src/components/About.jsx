@@ -13,8 +13,8 @@ const About = () => {
                     <h6 className='mb-0 lg:mb-8 max-w-xl lg:max-w-[250px]'>We invite you to explore our website, visit our campus, and learn more about what makes Markajul Quran Madrasa the right choice for you.</h6>
                     <h6 className='mb-3 max-w-[250px]'>pursue your passions, and prepare for a successful future.</h6>
                     <div>
-                        <a href='#' className='a'>
-                            <span className='span'>Join</span>
+                        <a href='#' className='a py-4 px-8 w-28 relative block uppercase overflow-hidden rounded-xl'>
+                            <span className='relative z-10 text-black text-xl'>Join</span>
                             <div className='liquid'></div>
                         </a>
                     </div>

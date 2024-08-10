@@ -5,8 +5,8 @@ const Specialities = () => {
         <div className="pb-32 pt-8 flex flex-col-reverse md:flex-col">
             <div className="flex flex-col-reverse md:flex-row items-center gap-5 md:gap-36 mb-12 px-10">
                 <div>
-                    <a href='#' className='a'>
-                        <span className='span'>Join</span>
+                    <a href='#' className='a py-4 px-8 relative block uppercase overflow-hidden rounded-xl'>
+                        <span className='relative z-10 text-black text-xl'>Join</span>
                         <div className='liquid'></div>
                     </a>
                 </div>

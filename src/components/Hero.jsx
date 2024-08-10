@@ -75,10 +75,10 @@ const Hero = () => {
                     </motion.div>
 
                     <motion.button>
-                        <a href='#' className='a'>
-                            <span className='span'>Button</span>
+                        <button className='a py-4 px-8 relative block uppercase overflow-hidden rounded-xl'>
+                            <span className='relative z-10 text-black text-xl'>Button</span>
                             <div className='liquid'></div>
-                        </a>
+                        </button>
                     </motion.button>
                 </motion.div>
             </div>
